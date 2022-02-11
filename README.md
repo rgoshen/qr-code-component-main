@@ -46,7 +46,7 @@ I relearned using flexbox without any frameworks. It had been awhile since I rea
 
 ### Continued development
 
-I just want to keep go back over plain CSS with out the use of frameworks to cement concepts of flexbox, grid and positioning.
+I just want to just keep going back over plain CSS with out the use of frameworks to cement concepts of flexbox, grid and positioning.
 
 ### Useful resources
 
