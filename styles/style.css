@@ -1,0 +1,76 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --blue: hsl(228, 45%, 44%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--light-gray);
+}
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 500px;
+  background-color: var(--white);
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  margin: 100px auto;
+  padding: 16px;
+}
+
+.qr-header {
+  max-width: 288px;
+  max-height: 288px;
+}
+
+.qr-code {
+  border-radius: 10px;
+  height: 100%;
+}
+
+.qr-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.qr-title {
+  color: var(--dark-blue);
+  margin: 20px 10px 10px 10px;
+}
+
+.qr-body p {
+  color: var(--grayish-blue);
+  margin: 10px 12px;
+}
+
+.footer {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+}
+
+.footer a {
+  color: var(--blue);
+}
